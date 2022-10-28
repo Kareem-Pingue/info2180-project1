@@ -1,0 +1,225 @@
+/* Add your CSS to this file */
+body {
+    margin: 0;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+header{
+    font-size: 18px;
+    background-color:white;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/*Heder + Navigation Bar*/
+header h1{
+    margin: 2% 7%;
+}
+
+header .container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    display:flex;
+    margin-left:10%;
+    justify-content: space-around;
+    width:50%;
+    list-style-type: none;
+}
+
+header li a{
+    font-weight: bold;
+    padding:5px;
+    color:#6b7280;
+    text-decoration: none;
+}
+
+header li a:hover{
+    color:#5a67d8;
+}
+
+/*overview*/
+.overview-hero .container{
+    display:flex;
+    align-items: center;
+    padding:35px;
+    background-color: #E2E8F0;
+    justify-content: space-around;  
+}
+
+.overview-hero-image img{
+    align-self: flex-start;
+    margin: 20px 30px 0 0;
+    border-radius: 500px;
+}
+
+.overview-hero-text {
+    flex: 1 1 auto;
+    padding-left: 50px;
+}
+
+/*Learn About*/
+.learn-about .container{
+    align-items: center;
+    justify-items: center;
+    width:70%;
+}
+
+.learn-about h2,
+.learn-about h3 {
+    margin-top: 20px;
+    color: #48bb78;
+    font-size: 21px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: 1vw;
+    margin-top: 30px;
+}
+
+.card{
+    border-color:#e2e8f0;
+    box-shadow: 0px 5px 10px #e2e8f0;
+    border-radius:5px;
+    padding:30px;
+    border-style:solid;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+}
+
+.card img{
+    height:27vh;
+}
+
+/*Testing*/
+.testing .container{
+    justify-content: space-between;
+    display:flex;
+    align-items: center;
+    background-color:#4A5568;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    color:white;
+    padding: 20vh 4vw;
+}
+
+.testing .container .cta {
+    width: 50%;
+    background-color: #48bb78;
+    padding: 14px 1px;
+    margin: 0px 3px;
+    border-style: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.testing .container .cta a {
+    color: white;
+    text-decoration: none;
+}
+
+/*Recent Stories*/
+.stories article {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+article img{
+    border-radius: 100%;
+    margin-right:45px;
+    margin-bottom:30px;
+    margin-top:30px;
+    height:30vh;
+}
+
+.stories h2,
+.stories h3,
+.stories a {
+    margin-bottom: 25px;
+    color: #5a67d8;
+}
+
+.stories p {
+    margin-top: 25px;
+}
+
+/*News*/
+.newsletter .container {
+    color: #fff;
+    flex-direction: column;
+    background-color: #48bb78;
+    padding: 70px;
+    align-items: center;
+    display: flex;
+  }
+
+.newsletter h3{
+    margin-bottom: 10px;
+}
+
+.newsletter p{
+    width: 40vw;
+}
+
+.newsletter .container p {
+    width: 54%;
+  }
+
+form {
+    flex-direction: row;
+    margin-top: 25px;
+    display:flex;
+}
+
+form button {
+    background-color: #5a67d8;
+    border-radius: 5px;
+    border-style: none;
+    padding: 15px 20px;
+    color: #fff;
+}
+
+/*Footer*/
+input {
+    border-style: none;
+    border-radius: 5px;
+    padding: 15px;
+  }
+
+footer .container{
+    margin:0 auto;    
+    align-items: center;
+    display:flex;
+    height:10vh;
+    width:100%;
+    padding-top:30px;
+    padding-right:10vw;
+    padding-left:9w;
+    color:white;
+    background-color: #4a5568;
+}
+
+footer p{
+    margin-left:110px;
+}
+
+/*Message*/
+.message {
+    padding-top: 20px;
+    font-style: italic;
+    color: #fff;
+}
+  
